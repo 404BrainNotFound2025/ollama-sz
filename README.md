@@ -25,4 +25,9 @@
 
 # Run
 
-dotnet run -- test-doc.txt
+- dotnet run -- test-doc.txt
+    - dotnet run -- test-doc.txt --provider openai
+    - dotnet run -- test-doc.txt --provider ollama
+
+- dotnet run -- test-doc-small.txt
+
